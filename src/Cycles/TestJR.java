@@ -9,8 +9,11 @@ import static java.lang.System.in;
  */
 public class TestJR {
     public static void main(String[] args) throws Exception {
+
         Scanner scn = new Scanner(System.in);
-       int b = scn.nextInt();
+        int b = scn.nextInt();
+
+        while (b != 10) {
 
             switch (b) {
 
@@ -38,7 +41,10 @@ public class TestJR {
                 default:
                     System.out.println("Нет");
                     break;
+
             }
+            b = scn.nextInt();
+        }
 
         }
     }

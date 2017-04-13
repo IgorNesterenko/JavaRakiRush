@@ -10,10 +10,11 @@ import static java.lang.System.in;
 public class TestJR {
     public static void main(String[] args) throws Exception {
 
-        Scanner scn = new Scanner(System.in);
-        int b = scn.nextInt();
 
-        while (b != 10) {
+        Scanner scn = new Scanner(System.in);
+
+        int b;
+        while ( (b = scn.nextInt()) != 10) {
 
             switch (b) {
 
@@ -43,7 +44,7 @@ public class TestJR {
                     break;
 
             }
-            b = scn.nextInt();
+
         }
 
         }

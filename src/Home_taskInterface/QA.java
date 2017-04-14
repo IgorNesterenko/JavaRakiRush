@@ -22,5 +22,5 @@ public class QA extends Coworkers implements ICoWorkers {
         System.out.println("Selary of QA is: " + sel);
     }
 
-    
+
 }

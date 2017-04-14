@@ -33,4 +33,8 @@ public class Coworkers {
     public String getWork() {
         return work;
     }
+
+    public int getWorkExperiance() {
+        return workExperiance;
+    }
 }
